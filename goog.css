@@ -1,0 +1,141 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+
+
+#new{
+    color:red;
+}
+
+#top{
+    position:absolute;
+    right:0;
+}
+
+#top li{
+    margin:0 5px;
+    padding:0 5px;
+    font-size:15px;
+}
+
+#top a {
+    color:darkgrey;
+}
+#top a:hover{
+    text-decoration:underline;
+}
+
+#top button {
+    color:white;
+    background-color:#337ab7;
+    font-size:15px;
+    padding:10px 15px;
+    text-align:center;
+    text-decoration:none;
+    border-radius:5px;
+    border:none;
+    margin:0 30px;
+}
+
+
+ul{
+    list-style-type:none;
+}
+
+li {
+    text-decoration:none;
+    display:inline;
+    color:black;
+}
+
+img {
+    display:block;
+    margin:auto;
+    padding:175px;
+    padding-bottom:25px;
+}
+
+form{
+    text-align:center;
+}
+
+input {
+    width:500px;
+    height:35px;
+    border-radius:2px;
+    border:1px solid lightgray;
+}
+
+input:hover {
+    border:1px solid darkgray;
+}
+
+p{
+    text-align:center;
+}
+
+
+form #pic{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC);
+    
+    background-repeat:no-repeat;
+    background-position: right;
+    background-size:24px;
+    vertical-align:middle;
+    display:inline-block;
+}
+
+
+form .butts {
+    font-family: 'Open Sans Condensed', sans-serif, 'times new roman';
+    color:grey;
+    font-size:15px;
+    margin:0 10px;
+    height:40px;
+    background-color:white;
+    width:150px;
+    border:1px solid #e7e7e7;
+    border-radius:5px;
+    margin-top:30px;
+    text-align:center;
+}
+
+form .butts:hover {
+    color:black;
+    border:1px solid darkgrey;
+}
+
+#bottom {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    padding:0 10px;
+}
+#bottom li {
+    padding:0 15px;
+}
+
+#bottom li a {
+    color:grey;
+}
+
+
+.left{
+    float:left;
+}
+.right{
+    float:right;
+    position:relative;
+    right:15px;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+#bottom a:hover{
+    text-decoration:underline;
+}
